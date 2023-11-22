@@ -1171,7 +1171,4 @@ Resources:
 Outputs:
   StudioDomain:
     Description: SageMakerStudioDomain
-    Value:
-      Fn::GetAtt:
-      - StudioDomain
-      - Name
+    Value: !Ref StudioDomain
