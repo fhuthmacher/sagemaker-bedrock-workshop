@@ -16,7 +16,7 @@ Parameters:
   GitRepositoryUrl:
     Type: String
     Description: The domain name of the Sagemaker studio instance
-    Default: 'https://github.com/fhuthmacher/sm-bedrock-workshop'
+    Default: 'https://github.com/fhuthmacher/sagemaker-bedrock-workshop'
   GitRepository2Url:
     Type: String
     Description: The domain name of the Sagemaker studio instance

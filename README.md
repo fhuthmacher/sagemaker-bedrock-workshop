@@ -47,8 +47,10 @@ This workshop is presented as a series of **Python notebooks**, which you can ru
 - For a fully-managed but more basic experience, you could instead [create a SageMaker Notebook Instance](https://docs.aws.amazon.com/sagemaker/latest/dg/howitworks-create-ws.html).
 - If you prefer to use your existing (local or other) notebook environment, make sure it has [credentials for calling AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html).
 - To deploy a Amazon SageMaker Domain along with the source code of this repository, log into your AWS Managagement Console and launch the CloudFormation stack below.
+
+[![Launch CloudFormation Stack](https://felixh-github.s3.amazonaws.com/misc_public/launchstack.png)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=bedrockworkshop&templateURL=https://felixh-github.s3.amazonaws.com/misc_public/SageMakerBedrockWorkshop.yml)
+
 <br>
-[![Launch CloudFormation Stack](https://felixh-github.s3.amazonaws.com/misc_public/launchstack.png)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=bedrockworkshop&templateURL=https://felixh-github.s3.amazonaws.com/misc_public/LLMevaluation.yml)
 
 #### Enable AWS IAM permissions for Bedrock
 
