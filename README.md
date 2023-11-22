@@ -14,7 +14,7 @@ Day 1 - Agenda:
 5. 12.00 to 1 pm – Lunch
 6. 1.00 to 1.45 pm - Questions Answering (RAG) [45 mins]
 7. 1.45 to 2.15 pm - Chatbot (RAG) [30 mins]
-7. 2.15 to 2.30 pm - EntityExtraction [30 mins]
+7. 2.15 to 2.30 pm - EntityExtraction [15 mins]
 8. 2.30 to 2.45 pm - Break [15 mins]
 9. 2.45 to 3.15 pm - Code Generation [30 mins]
 10. 3.15 to 3.45 pm - Chatbot Guardrails [30 mins]

@@ -944,8 +944,7 @@ Resources:
               #!/bin/bash
               set -eux
               git -C /home/sagemaker-user clone {git_repo}
-              #git -C /home/sagemaker-user clone {git_repo_2}
-              """.format(git_repo=git_repo) # git_repo_2=git_repo2
+              """.format(git_repo=git_repo)
                   
                   message_bytes = StudioLifecycleConfigContent.encode('ascii')
                   base64_bytes = base64.b64encode(message_bytes)
