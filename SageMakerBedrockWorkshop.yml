@@ -21,16 +21,6 @@ Parameters:
     Type: String
     Description: The domain name of the Sagemaker studio instance
     Default: ''
-  apiGatewayName:
-    Type: String
-    Default: generateSM
-  apiGatewayStageName:
-    Type: String
-    AllowedPattern: '[a-z0-9]+'
-    Default: prod
-  apiGatewayHTTPMethod:
-    Type: String
-    Default: GET
 
 Mappings:
   RegionMap:
@@ -1161,7 +1151,7 @@ Resources:
                 BUCKET: ''
                 RANDOM_STRING: !Select [4, !Split ['-', !Select [2, !Split ['/', !Ref AWS::StackId]]]]
                 ROLE_ARN: !GetAtt LambdaExecutionRole.Arn
-                API_GATEWAY: !Ref apiGateway
+                API_GATEWAY: ''
                 SM_DOMAIN_ID: !GetAtt StudioDomain.DomainId
                 GIT_REPO: !Ref GitRepositoryUrl
                 GIT_REPO_2: !Ref GitRepository2Url
